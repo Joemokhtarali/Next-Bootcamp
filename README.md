@@ -9,3 +9,5 @@
     - Navigation with the Link component & dynamic routing to clients 
     - Navigate programmaticly using router.push()
     - 404 page 
+
+### Turned project to events App 
