@@ -11,3 +11,8 @@
     - 404 page 
 
 ### Turned project to events App 
+## 4 routes 
+    - /                list of featured events 
+    - /events          list of all events 
+    - /events/id       Event details page 
+    - /events/...slug  Filtered Events Page by date  

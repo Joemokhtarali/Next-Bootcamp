@@ -5,12 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1>My First Next App</h1>
-      <ul>
-        <li>
-          <Link href='/portfolio'>Portfolio</Link>
-        </li>
-      </ul>
+      <h1>Featured Events</h1>
     </div>
   )
 }
