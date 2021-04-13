@@ -1,11 +1,17 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import { getFeaturedEvents } from "../dummy_data";
 
-export default function Home() {
+
+function HomePage() {
+  const featuredEvents = getFeaturedEvents();
+
   return (
     <div className={styles.container}>
-      <h1>Featured Events</h1>
+      {/* <ul>
+        { getFeaturedEvents.map((event) => <EventPage />
+        )}
+      </ul> */}
     </div>
   )
 }
+export default HomePage
