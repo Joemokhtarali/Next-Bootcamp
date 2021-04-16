@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import { getFeaturedEvents } from "../dummy_data";
+import EventList from '../components/events/event-list';
 
 
 function HomePage() {
@@ -7,10 +8,7 @@ function HomePage() {
 
   return (
     <div className={styles.container}>
-      {/* <ul>
-        { getFeaturedEvents.map((event) => <EventPage />
-        )}
-      </ul> */}
+      <EventList items= {featuredEvents}/>
     </div>
   )
 }
