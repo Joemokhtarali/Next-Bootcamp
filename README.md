@@ -22,3 +22,5 @@
 # Added a Components folder to create components away from pages folder that direct the routing of components.
 # Built EventList && EventItem components to take props and render information 
 
+### Styling
+# Learned how to use CSS classes object by creating .module.css files 
