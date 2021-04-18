@@ -24,3 +24,4 @@
 
 ### Styling
 # Learned how to use CSS classes object by creating .module.css files 
+# Added Icons from heroIcons 
