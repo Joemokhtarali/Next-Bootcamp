@@ -25,3 +25,6 @@
 ### Styling
 # Learned how to use CSS classes object by creating .module.css files 
 # Added Icons from heroIcons  
+
+### Navbar
+# _app.js wraps the app component where you can add a navbar layout for all pages to render.
