@@ -11,7 +11,7 @@ function EventLogistics(props) {
     month: 'long',
     year: 'numeric',
   });
-  const addressText = location.replace(', ', '\n');
+  // const addressText = location.replace(', ', '\n');
 
   return (
     <section className={classes.logistics}>
@@ -23,7 +23,7 @@ function EventLogistics(props) {
           <time>{humanReadableDate}</time>
         </LogisticsItem>
         <LogisticsItem icon={AddressIcon}>
-          <address>{addressText}</address>
+          <address>{location}</address>
         </LogisticsItem>
       </ul>
     </section>
