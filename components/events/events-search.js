@@ -4,7 +4,7 @@ import classes from "../../styles/event-search.module.css";
 
 function EventSearch(props) {
     const yearRef = useRef()
-    const monthRef = useRef()
+    const monthRef = useRef() 
 
     function handleClick(e){
         e.preventDefault()

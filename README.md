@@ -25,6 +25,14 @@
 ### Styling
 # Learned how to use CSS classes object by creating .module.css files 
 # Added Icons from heroIcons  
+# Global.css file has styling for all the app and no need to import it 
 
 ### Navbar
 # _app.js wraps the app component where you can add a navbar layout for all pages to render.
+
+### Slug 
+# router.query.slug will output what's in the url after /events 
+# 
+
+### General 
+- +variable  turns a string into number
