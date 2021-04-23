@@ -40,6 +40,7 @@
 
 ### getStaticProps() to pre render page with some data => index page 
 # using await keyword to wait on other functions async
+# Instead of using server-side rendering, revalidate 
 
 
 ### Data Fetching 
@@ -47,4 +48,4 @@
 - fetching data using SWR hook 
 - fetching single event with firebase 
 - getStaticProps to pre render event's page 
-- getStaticPaths 
+- getStaticPaths async to get all paths 
