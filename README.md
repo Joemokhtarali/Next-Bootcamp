@@ -49,3 +49,9 @@
 - fetching single event with firebase 
 - getStaticProps to pre render event's page 
 - getStaticPaths async to get all paths 
+
+
+### Optimizing NextJS APP for search engines 
+# Head meta tag 
+- import Head from 'next/head'
+- meta name='description' content='blah blah blah'
