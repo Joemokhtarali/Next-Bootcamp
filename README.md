@@ -55,3 +55,4 @@
 # Head meta tag 
 - import Head from 'next/head'
 - meta name='description' content='blah blah blah'
+- adding Head to _app for responsive styling 
