@@ -36,3 +36,12 @@
 
 ### General 
 - +variable  turns a string into number
+
+
+### getStaticProps() to pre render page with some data => index page 
+# using await keyword to wait on other functions async
+
+
+### Data Fetching 
+- moved database from dummy_data.json to firebase by google.
+- fetching data using SWR hook 

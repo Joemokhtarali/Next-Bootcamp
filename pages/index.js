@@ -1,15 +1,26 @@
-import styles from '../styles/Home.module.css'
-import { getFeaturedEvents } from "../dummy_data";
-import EventList from '../components/events/event-list';
+import styles from "../styles/Home.module.css";
+import { getFeaturedEvents } from "../helpers/api_util";
+import EventList from "../components/events/event-list";
 
 
-function HomePage() {
-  const featuredEvents = getFeaturedEvents();
+function HomePage(props) {
+  // const featuredEvents = getFeaturedEvents();
 
-  return (
+  return ( 
     <div className={styles.container}>
-      <EventList items= {featuredEvents}/>
+      <EventList items={props.events} />
     </div>
-  )
+  );
 }
-export default HomePage
+ 
+export async function getStaticProps() {
+  const featuredEvents = await getFeaturedEvents()
+  
+  return {
+    props: {
+      events: featuredEvents
+    },
+  };
+}
+
+export default HomePage;
