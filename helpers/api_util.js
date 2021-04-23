@@ -1,5 +1,4 @@
 export async function getAllEvents() {
-  console.log('data')
   const response = await fetch(
     "https://react-meetup-59fc3-default-rtdb.firebaseio.com/events.json"
   );
@@ -19,4 +18,10 @@ export async function getAllEvents() {
 export async function getFeaturedEvents() {
     const allEvents = await getAllEvents()
     return allEvents.filter((event) => event.isFeatured);
+  }
+
+
+  export async function getEventById(id) {
+    const allEvents = await getAllEvents()
+    return allEvents.find((event) => event.id === id);
   }
