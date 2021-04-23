@@ -45,3 +45,6 @@
 ### Data Fetching 
 - moved database from dummy_data.json to firebase by google.
 - fetching data using SWR hook 
+- fetching single event with firebase 
+- getStaticProps to pre render event's page 
+- getStaticPaths 
